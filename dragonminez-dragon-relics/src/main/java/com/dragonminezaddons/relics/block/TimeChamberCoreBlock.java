@@ -1,9 +1,8 @@
 package com.dragonminezaddons.relics.block;
 
 import com.dragonminezaddons.relics.init.EffectInit;
-import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
-import net.minecraft.network.chat.Component;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -14,22 +13,19 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 
 public class TimeChamberCoreBlock extends Block {
+
     public TimeChamberCoreBlock(Properties properties) {
         super(properties);
     }
 
     @Override
-    protected InteractionResult useWithoutItem(BlockState state, Level level,
-                                               BlockPos pos, Player player,
-                                               BlockHitResult hit) {
-        if (!level.isClientSide()) {
-            player.addEffect(new MobEffectInstance(MobEffects.STRENGTH, 12000, 1));
+    public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player,
+                                  InteractionHand hand, BlockHitResult hit) {
+        if (!level.isClientSide) {
+            player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 12000, 1));
             player.addEffect(new MobEffectInstance(MobEffects.JUMP, 12000, 2));
-            player.addEffect(new MobEffectInstance(EffectInit.DRAGON_POWER, 6000, 0));
-            player.sendSystemMessage(Component.literal(
-                "[Hyperbolic Time Chamber] You have entered the chamber. Time flows differently here...")
-                .withStyle(ChatFormatting.LIGHT_PURPLE));
+            player.addEffect(new MobEffectInstance(EffectInit.DRAGON_POWER.get(), 6000, 0));
         }
-        return InteractionResult.sidedSuccess(level.isClientSide());
+        return InteractionResult.sidedSuccess(level.isClientSide);
     }
 }

@@ -1,33 +1,25 @@
 package com.dragonminezaddons.transformations.effect;
 
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class UltraInstinctEffect extends MobEffect {
+
     public UltraInstinctEffect() {
-        super(MobEffectCategory.BENEFICIAL, 0xCCCCFF);
-        addAttributeModifier(
-                Attributes.ATTACK_DAMAGE,
-                ResourceLocation.fromNamespaceAndPath("dmz_transformations", "ui_attack"),
-                1.0,
-                AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL);
-        addAttributeModifier(
-                Attributes.MOVEMENT_SPEED,
-                ResourceLocation.fromNamespaceAndPath("dmz_transformations", "ui_speed"),
-                0.4,
-                AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL);
-        addAttributeModifier(
-                Attributes.ARMOR,
-                ResourceLocation.fromNamespaceAndPath("dmz_transformations", "ui_armor"),
-                8.0,
-                AttributeModifier.Operation.ADD_VALUE);
-        addAttributeModifier(
-                Attributes.ATTACK_SPEED,
-                ResourceLocation.fromNamespaceAndPath("dmz_transformations", "ui_attack_speed"),
-                0.5,
-                AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL);
+        super(MobEffectCategory.BENEFICIAL, 0xFFFFFF);
+        addAttributeModifier(Attributes.ATTACK_DAMAGE,
+                "b2c3d4e5-1111-2222-3333-000000000001", 1.0,
+                AttributeModifier.Operation.MULTIPLY_TOTAL);
+        addAttributeModifier(Attributes.MOVEMENT_SPEED,
+                "b2c3d4e5-1111-2222-3333-000000000002", 0.4,
+                AttributeModifier.Operation.MULTIPLY_TOTAL);
+        addAttributeModifier(Attributes.ARMOR,
+                "b2c3d4e5-1111-2222-3333-000000000003", 8.0,
+                AttributeModifier.Operation.ADDITION);
+        addAttributeModifier(Attributes.ATTACK_SPEED,
+                "b2c3d4e5-1111-2222-3333-000000000004", 0.5,
+                AttributeModifier.Operation.MULTIPLY_TOTAL);
     }
 }

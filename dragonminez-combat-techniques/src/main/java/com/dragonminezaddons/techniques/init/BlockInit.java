@@ -5,17 +5,17 @@ import com.dragonminezaddons.techniques.block.TrainingDummyBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.neoforged.neoforge.registries.DeferredBlock;
-import net.neoforged.neoforge.registries.DeferredRegister;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
 public class BlockInit {
-    public static final DeferredRegister.Blocks BLOCKS =
-            DeferredRegister.createBlocks(DragonMineZTechniques.MOD_ID);
 
-    public static final DeferredBlock<TrainingDummyBlock> TRAINING_DUMMY =
-            BLOCKS.register("training_dummy",
-                    () -> new TrainingDummyBlock(BlockBehaviour.Properties.of()
-                            .strength(3.0f, 6.0f)
-                            .sound(SoundType.WOOD)
-                            .noOcclusion()));
+    public static final DeferredRegister<Block> BLOCKS =
+            DeferredRegister.create(ForgeRegistries.BLOCKS, DragonMineZTechniques.MOD_ID);
+
+    public static final RegistryObject<Block> TRAINING_DUMMY = BLOCKS.register("training_dummy",
+            () -> new TrainingDummyBlock(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOD)
+                    .strength(3.0f, 6.0f)));
 }

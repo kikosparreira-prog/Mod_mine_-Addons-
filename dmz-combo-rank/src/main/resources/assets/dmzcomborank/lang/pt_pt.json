@@ -1,0 +1,5 @@
+{
+  "message.dmzcomborank.combo": "Combo x%1$s  |  Rank %2$s  |  +%3$s%% de dano",
+  "message.dmzcomborank.rank_up": "SUBIU DE RANK: %1$s  (+%2$s%% de dano)",
+  "message.dmzcomborank.lost": "Combo perdido"
+}

@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+    modId="dmz_relics"
+    version="${file.jarVersion}"
+    displayName="DragonMineZ Dragon Relics"
+    description="Adds powerful relics, the Time Chamber Core block, and Potara Earrings as an addon for DragonMineZ."
+
+[[dependencies.dmz_relics]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.4,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dmz_relics]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dmz_relics]]
+    modId="dragonminez"
+    mandatory=true
+    versionRange="[2.0,)"
+    ordering="AFTER"
+    side="BOTH"

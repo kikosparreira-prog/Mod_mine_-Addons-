@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+    modId="dmz_techniques"
+    version="${file.jarVersion}"
+    displayName="DragonMineZ Combat Techniques"
+    description="Adds technique scrolls, a training dummy, and combat items as an addon for DragonMineZ."
+
+[[dependencies.dmz_techniques]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.4,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dmz_techniques]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dmz_techniques]]
+    modId="dragonminez"
+    mandatory=true
+    versionRange="[2.0,)"
+    ordering="AFTER"
+    side="BOTH"
