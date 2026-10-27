@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+    modId="dmz_saiyan_armor"
+    version="${file.jarVersion}"
+    displayName="DragonMineZ Saiyan Armor"
+    description="Saiyan Battle Armor and Frieza Force armor sets for DragonMineZ."
+[[dependencies.dmz_saiyan_armor]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.4,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.dmz_saiyan_armor]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.dmz_saiyan_armor]]
+    modId="dragonminez"
+    mandatory=true
+    versionRange="[2.0,)"
+    ordering="AFTER"
+    side="BOTH"

@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+    modId="dmz_tournament_arena"
+    version="${file.jarVersion}"
+    displayName="DragonMineZ Tournament Arena"
+    description="Tournament arena blocks and championship trophy items for DragonMineZ."
+[[dependencies.dmz_tournament_arena]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.4,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.dmz_tournament_arena]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.dmz_tournament_arena]]
+    modId="dragonminez"
+    mandatory=true
+    versionRange="[2.0,)"
+    ordering="AFTER"
+    side="BOTH"

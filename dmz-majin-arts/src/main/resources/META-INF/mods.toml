@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+    modId="dmz_majin_arts"
+    version="${file.jarVersion}"
+    displayName="DragonMineZ Majin Arts"
+    description="Majin-themed magical items and effects for DragonMineZ."
+[[dependencies.dmz_majin_arts]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.4,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.dmz_majin_arts]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.dmz_majin_arts]]
+    modId="dragonminez"
+    mandatory=true
+    versionRange="[2.0,)"
+    ordering="AFTER"
+    side="BOTH"

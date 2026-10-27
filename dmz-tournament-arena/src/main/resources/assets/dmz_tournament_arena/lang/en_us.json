@@ -1,0 +1,11 @@
+{
+  "item.dmz_tournament_arena.arena_floor": "Arena Floor",
+  "item.dmz_tournament_arena.arena_wall": "Arena Wall",
+  "item.dmz_tournament_arena.arena_pillar": "Arena Pillar",
+  "item.dmz_tournament_arena.gold_trophy": "Gold Trophy",
+  "item.dmz_tournament_arena.world_martial_arts_belt": "World Martial Arts Belt",
+  "item.dmz_tournament_arena.tournament_medallion": "Tournament Medallion",
+  "block.dmz_tournament_arena.arena_floor": "Arena Floor",
+  "block.dmz_tournament_arena.arena_wall": "Arena Wall",
+  "block.dmz_tournament_arena.arena_pillar": "Arena Pillar"
+}

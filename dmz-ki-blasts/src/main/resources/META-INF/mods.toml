@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+    modId="dmz_ki_blasts"
+    version="${file.jarVersion}"
+    displayName="DragonMineZ Ki Blasts"
+    description="Throwable ki blast items with raycast damage for DragonMineZ."
+[[dependencies.dmz_ki_blasts]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.4,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.dmz_ki_blasts]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.dmz_ki_blasts]]
+    modId="dragonminez"
+    mandatory=true
+    versionRange="[2.0,)"
+    ordering="AFTER"
+    side="BOTH"
