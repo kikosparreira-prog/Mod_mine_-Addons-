@@ -1,0 +1,20 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Forge run dirs
+run/
+logs/
+
+# Compiled outputs (keep src, exclude binaries)
+*.class

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dmz_techniques:item/technique_scroll_destructo_disc"
+  }
+}

@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="MIT"
+
+[[mods]]
+    modId="dmz_techniques"
+    version="${file.jarVersion}"
+    displayName="DragonMineZ: Combat Techniques"
+    description='''Adds Final Flash, Special Beam Cannon, Spirit Bomb scrolls and a Training Dummy.'''
+
+[[dependencies.dmz_techniques]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dmz_techniques]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="BOTH"

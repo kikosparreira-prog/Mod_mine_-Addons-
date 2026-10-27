@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "dmz_transformations:god_ki_crystal"
+    },
+    {
+      "item": "dmz_transformations:ssgss_catalyst"
+    }
+  ],
+  "result": {
+    "id": "dmz_transformations:transformation_scroll",
+    "count": 1
+  }
+}

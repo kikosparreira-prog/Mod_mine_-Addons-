@@ -1,0 +1,12 @@
+{
+  "itemGroup.dmz_transformations.tab": "DragonMineZ: Transformations",
+  "item.dmz_transformations.god_ki_crystal": "God Ki Crystal",
+  "item.dmz_transformations.ultra_instinct_fragment": "Ultra Instinct Fragment",
+  "item.dmz_transformations.ssj4_awakening_stone": "SSJ4 Awakening Stone",
+  "item.dmz_transformations.ssgss_catalyst": "SSGSS Catalyst",
+  "item.dmz_transformations.transformation_scroll": "Transformation Scroll",
+  "item.dmz_transformations.transformation_scroll.activated": "God Ki power unleashed!",
+  "item.dmz_transformations.transformation_scroll.tooltip": "Use to activate God Ki Boost for 60 seconds.",
+  "effect.dmz_transformations.god_ki_boost": "God Ki Boost",
+  "effect.dmz_transformations.ultra_instinct_state": "Ultra Instinct"
+}

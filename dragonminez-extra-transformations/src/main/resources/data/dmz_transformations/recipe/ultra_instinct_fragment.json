@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SES",
+    "EGE",
+    "SES"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:iron_ingot"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "G": {
+      "item": "dmz_transformations:god_ki_crystal"
+    }
+  },
+  "result": {
+    "id": "dmz_transformations:ultra_instinct_fragment",
+    "count": 1
+  }
+}

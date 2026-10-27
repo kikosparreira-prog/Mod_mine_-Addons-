@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dmz_relics:block/time_chamber_core"
+    }
+  }
+}

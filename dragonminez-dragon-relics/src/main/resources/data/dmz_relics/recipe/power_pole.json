@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  G",
+    " G ",
+    "G  "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "id": "dmz_relics:power_pole",
+    "count": 1
+  }
+}

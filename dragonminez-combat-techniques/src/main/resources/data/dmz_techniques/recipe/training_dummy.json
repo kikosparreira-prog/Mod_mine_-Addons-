@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PWP",
+    "WOW",
+    "PWP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:oak_planks"
+    },
+    "W": {
+      "item": "minecraft:oak_log"
+    },
+    "O": {
+      "item": "minecraft:carved_pumpkin"
+    }
+  },
+  "result": {
+    "id": "dmz_techniques:training_dummy",
+    "count": 1
+  }
+}

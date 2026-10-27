@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="MIT"
+
+[[mods]]
+    modId="dmz_transformations"
+    version="${file.jarVersion}"
+    displayName="DragonMineZ: Extra Transformations"
+    description='''Adds God Ki, Ultra Instinct, SSJ4 and SSGSS transformation items for DragonMineZ.'''
+
+[[dependencies.dmz_transformations]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dmz_transformations]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="BOTH"
